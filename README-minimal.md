@@ -2,7 +2,7 @@
 
 Minimal versiya - bitta faylda
 
-### Ishga tushirishdan oldin vaqtinchalik subdomen beradigan remote tunnel yaratish kerak va tunnel manzilini .env fayl yaratib qo'yib olishimiz kerak. Tunnel uchun vs code da tayyor [port forwarding](https://code.visualstudio.com/docs/debugtest/port-forwarding) funksiyasi bor
+### Ishga tushirishdan oldin vaqtinchalik subdomen beradigan remote tunnel yaratish kerak va tunnel manzilini .env fayl yaratib qo'yib olishimiz kerak. Tunnel uchun vs code da tayyor [port forwarding](https://code.visualstudio.com/docs/debugtest/port-forwarding) funksiyasi bor, public tunnel qilib ishga tushirish kerak
 
 ```
 #.env

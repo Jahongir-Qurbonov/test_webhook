@@ -3,7 +3,7 @@
 ## Tayyorlash va tushuntirish
 ### Avvaliga proyektni ko'proq sozlamalar bilan yozmoqchi edim (docker, postgres), reviewer (interviewer)ga barchasini ko'rsatish uchun, qila oladigan ishlarimni ko'rsatish maqsadida, lekin keyin shunchaki ishga tushadigan qilib davom ettirdim (minimal versiya README-minimal.md faylda)
 
-### Ishga tushirishdan oldin vaqtinchalik subdomen beradigan remote tunnel yaratish kerak va tunnel manzilini .env fayl yaratib qo'yib olishimiz kerak. Tunnel uchun vs code da tayyor [port forwarding](https://code.visualstudio.com/docs/debugtest/port-forwarding) funksiyasi bor
+### Ishga tushirishdan oldin vaqtinchalik subdomen beradigan remote tunnel yaratish kerak va tunnel manzilini .env fayl yaratib qo'yib olishimiz kerak. Tunnel uchun vs code da tayyor [port forwarding](https://code.visualstudio.com/docs/debugtest/port-forwarding) funksiyasi bor, public tunnel qilib ishga tushirish kerak
 
 ```
 #.env
