@@ -13,7 +13,7 @@ CALLBACK_URL=https://s8c4r16w-8000.euw.devtunnels.ms/
 ## Fayllar
 
 - `minimal.py` - Asosiy dastur (server va client)
-- `run_minimal.sh` - Test script
+- `start_minimal.sh` - Test script
 
 ## Ishlatish
 
@@ -24,5 +24,5 @@ uv sync --frozen
 
 ### 4. Ishga tushirish
 ```bash
-./run_minimal.sh "test message"
+./start_minimal.sh "test message"
 ```
