@@ -4,6 +4,7 @@ Minimal webhook test application - single file version
 Usage: python minimal_webhook.py <message>
 """
 
+import json
 import os
 import time
 from typing import Dict, Literal, Optional
@@ -22,8 +23,6 @@ STORAGE_FILE = "data/minimal.json"
 def load_storage() -> Dict[str, Optional[str]]:
     if os.path.exists(STORAGE_FILE):
         with open(STORAGE_FILE, "r") as f:
-            import json
-
             return json.load(f)
     return {
         "req_msg": None,
@@ -35,8 +34,6 @@ def load_storage() -> Dict[str, Optional[str]]:
 
 def save_storage(storage: Dict[str, Optional[str]]):
     with open(STORAGE_FILE, "w") as f:
-        import json
-
         json.dump(storage, f)
 
 
